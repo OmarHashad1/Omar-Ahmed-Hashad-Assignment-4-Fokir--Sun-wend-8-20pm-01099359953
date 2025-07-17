@@ -118,6 +118,11 @@ body {
   position: relative;
   margin-top: 80px;
 }
+.info {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
 
 .image-container {
   float: left;
@@ -203,18 +208,7 @@ body {
   margin-right: 10px;
 }
 
-.info {
-    display: inline-block;
-    margin-top: 20px;
-}
 
-.info > * {
-    margin-right: 60px;
-}
-
-.info > *:last-child {
-    margin-right: 0;
-}
 
 .buttons button {
   padding: 10px 15px;
@@ -634,7 +628,6 @@ background-color:#f1f1f1;
   .blog-card-content .blog-title:hover {
     color: #7caac6;
   }
-/* Contact Form Styles */
 .contact-form {
   width: 100%;
   background-color: #f8f8f8;
